@@ -1,0 +1,26 @@
+package chap1;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class PlaceTest {
+
+    @Test
+    void getNom() {
+        Place p = new Place("LARSON", "Stéphane");
+        assertEquals("LARSON", p.getNom());
+    }
+
+    @Test
+    void getPrenom() {
+        Place p = new Place("LARSON", "Stéphane");
+        assertEquals("Stéphane", p.getPrenom());
+    }
+
+    @Test
+    void testToString() {
+        Place p = new Place("LARSON", "Stéphane");
+        assertEquals("LARSON - Stéphane : 20,00\r\n", p.toString());
+    }
+}

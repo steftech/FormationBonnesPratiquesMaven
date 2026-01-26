@@ -13,6 +13,7 @@ public class Reservation {
         listeDeReservation.push(new Place(nom, prenom));
     }
 
+    @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
         for (Place place : listeDeReservation) {

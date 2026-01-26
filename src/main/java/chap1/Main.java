@@ -6,8 +6,6 @@ public class Main {
         reservation.addPlace("LARSON", "Stéphane");
         reservation.addPlace("BOUCHER", "Jordan");
         reservation.addPlace("SAILLY", "Eric");
-
         System.out.println(reservation);
-
     }
 }

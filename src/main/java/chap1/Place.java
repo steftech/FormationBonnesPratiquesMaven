@@ -19,6 +19,7 @@ public class Place {
         return prenom;
     }
 
+    @Override
     public String toString() {
         return String.format("%s - %s : %.02f%n", getNom(), getPrenom(), PRIX_PLACE);
     }
