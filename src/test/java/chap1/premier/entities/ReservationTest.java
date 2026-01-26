@@ -1,4 +1,4 @@
-package chap1;
+package chap1.premier.entities;
 
 import org.junit.jupiter.api.Test;
 
@@ -10,8 +10,10 @@ class ReservationTest {
         Reservation reservation = new Reservation();
         reservation.addPlace("BOUCHER", "Jordan");
         reservation.addPlace("SAILLY", "Eric");
-        assertEquals("SAILLY - Eric : 20,00\r\n" +
-                "BOUCHER - Jordan : 20,00\r\n", reservation.toString());
+        assertEquals("""
+                SAILLY - Eric : 20,00\r
+                BOUCHER - Jordan : 20,00\r
+                """, reservation.toString());
     }
 
 }

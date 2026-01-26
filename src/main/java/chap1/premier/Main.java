@@ -1,4 +1,6 @@
-package chap1;
+package chap1.premier;
+
+import chap1.premier.entities.Reservation;
 
 public class Main {
     static void main() {

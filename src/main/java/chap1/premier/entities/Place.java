@@ -1,4 +1,4 @@
-package chap1;
+package chap1.premier.entities;
 
 public class Place {
     private final String nom;

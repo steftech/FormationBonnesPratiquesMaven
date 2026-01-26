@@ -1,4 +1,4 @@
-package chap1;
+package chap1.premier.entities;
 
 import org.junit.jupiter.api.Test;
 
