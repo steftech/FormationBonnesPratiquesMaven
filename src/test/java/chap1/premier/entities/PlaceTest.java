@@ -1,11 +1,9 @@
 package chap1.premier.entities;
 
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@ParameterizedTest
 class PlaceTest {
 
     @Test
