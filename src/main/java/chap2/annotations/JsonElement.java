@@ -9,5 +9,5 @@ import java.lang.annotation.Target;
 @Target(ElementType.FIELD)
 public @interface JsonElement {
     //Parametres entre parenthese
-    public String key() default "";
+    String key() default "";
 }

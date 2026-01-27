@@ -9,5 +9,5 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 public @interface JsonSerializable {
     //Parametres entre parenthese
-    public String key() default "";
+    String key() default "";
 }
