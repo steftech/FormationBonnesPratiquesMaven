@@ -1,7 +1,5 @@
 package chap2.genericite;
 
-import java.util.ArrayList;
-
 public class Triplet<T> {
     private final T premier;
     private final T second;
