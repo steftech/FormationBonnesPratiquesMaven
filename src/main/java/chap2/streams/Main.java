@@ -32,19 +32,10 @@ public class Main {
 
     }
 
-    private static void afficheListeInteger(List<Integer> liste) {
+    private static <T> void afficheListeInteger(List<T> liste) {
         String sep = "";
-        for (Integer p : liste) {
+        for (T p : liste) {
             System.out.print(sep + p );
-            sep = ",";
-        }
-        System.out.println();
-    }
-
-    private static void afficheListe(List<Point> liste) {
-        String sep = "";
-        for (Point p : liste) {
-            System.out.print(sep + p + ",");
             sep = ",";
         }
         System.out.println();
