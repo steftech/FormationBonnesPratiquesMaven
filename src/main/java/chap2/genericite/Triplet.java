@@ -1,0 +1,36 @@
+package chap2.genericite;
+
+import java.util.ArrayList;
+
+public class Triplet<T> {
+    private final T premier;
+    private final T second;
+    private final T troisieme;
+
+    public Triplet(T premier, T second, T troisieme) {
+        this.premier = premier;
+        this.second = second;
+        this.troisieme = troisieme;
+    }
+
+    public T getPremier() {
+        return premier;
+    }
+
+    public T getSecond() {
+        return second;
+    }
+
+    public T getTroisieme() {
+        return troisieme;
+    }
+
+    @Override
+    public String toString() {
+        return "Triplet{" +
+                "premier=" + getPremier() +
+                ", second=" + getSecond() +
+                ", troisieme=" + getTroisieme() +
+                '}';
+    }
+}
