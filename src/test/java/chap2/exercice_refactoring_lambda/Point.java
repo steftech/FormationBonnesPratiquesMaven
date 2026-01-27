@@ -1,8 +1,8 @@
 package chap2.exercice_refactoring_lambda;
 
 public class Point {
-    private int abscisse;
-    private int ordonne;
+    private final int abscisse;
+    private final int ordonne;
     public Point(int abscisse, int ordonne) {
         this.abscisse = abscisse;
         this.ordonne = ordonne;

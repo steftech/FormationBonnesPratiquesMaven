@@ -1,7 +1,7 @@
 package chap2.exercice_refactoring_lambda;
 
 public class PointColore extends Point{
-    private Couleur couleur;
+    private final Couleur couleur;
     PointColore(int abscisse, int ordonnee, Couleur couleur) {
         super(abscisse, ordonnee);
         this.couleur = couleur;
