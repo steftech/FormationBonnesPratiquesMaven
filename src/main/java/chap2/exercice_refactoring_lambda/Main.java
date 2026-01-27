@@ -1,7 +1,5 @@
 package chap2.exercice_refactoring_lambda;
 
-import org.jspecify.annotations.NonNull;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,7 +24,7 @@ public class Main {
 
     }
 
-    private static @NonNull List<PointColore> getTop5PointsJaunesProcheOrigine(List<PointColore> listePoints) {
+    private static List<PointColore> getTop5PointsJaunesProcheOrigine(List<PointColore> listePoints) {
         return listePoints.stream()
                 .filter(p-> p.getCouleur() == Couleur.Jaune)
                 .sorted((p1, p2) -> Double.compare(p1.getDistance(), p2.getDistance()))
