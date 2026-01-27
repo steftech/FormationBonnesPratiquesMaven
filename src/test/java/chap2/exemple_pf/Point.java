@@ -12,17 +12,11 @@ public class Point {
         return abscisse;
     }
 
-    public void setAbscisse(int abscisse) {
-        this.abscisse = abscisse;
-    }
 
     public int getOrdonnee() {
         return ordonnee;
     }
 
-    public void setOrdonnee(int ordonnee) {
-        this.ordonnee = ordonnee;
-    }
 
     @Override
     public String toString() {

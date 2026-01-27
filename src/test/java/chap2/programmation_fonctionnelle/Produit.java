@@ -6,9 +6,9 @@ public class Produit {
     private double prix;
 
     public Produit(int id, String libelle, double prix) {
-        this.id = id;
-        this.libelle = libelle;
-        this.prix = prix;
+        setId(id);
+        setLibelle(libelle);
+        setPrix(prix);
     }
 
     public int getId() {
