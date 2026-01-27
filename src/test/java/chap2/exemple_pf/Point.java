@@ -1,8 +1,8 @@
 package chap2.exemple_pf;
 
 public class Point {
-    private int abscisse;
-    private int ordonnee;
+    private final int abscisse;
+    private final int ordonnee;
 
     Point(int abscisse, int ordonnee) {
         this.abscisse = abscisse;
@@ -12,11 +12,9 @@ public class Point {
         return abscisse;
     }
 
-
     public int getOrdonnee() {
         return ordonnee;
     }
-
 
     @Override
     public String toString() {
