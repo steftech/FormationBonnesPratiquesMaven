@@ -1,6 +1,7 @@
 package chap2.exemple_pf_corrige;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class Main {
@@ -23,6 +24,11 @@ public class Main {
             // Tri par distance euclidienne
             System.out.println("Tri par Distance Euclidienne");
             liste.sort((p1, p2) -> Double.compare(p1.distanceEuclidienne(), p2.distanceEuclidienne()));
+            afficheListe(liste);
+
+            // Tri par distance euclidienne
+            System.out.println("Tri par Distance Euclidienne");
+            liste.sort(Comparator.comparingDouble(Point::distanceEuclidienne));
             afficheListe(liste);
         }
 
