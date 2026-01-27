@@ -21,24 +21,19 @@ public class Main {
         afficheListe(liste);
 
         // Tri par distance euclidienne
-
-        System.out.println("Tri par Distance Euclydienne");
-        liste.sort((p1, p2) -> {
-             return Double.compare(distanceEuclidienne(p1), distanceEuclidienne(p2));
-        });
+        System.out.println("Tri par Distance Euclidienne");
+        liste.sort((p1, p2) -> Double.compare(distanceEuclidienne(p1), distanceEuclidienne(p2)));
         afficheListe(liste);
-
-
     }
 
     private static double distanceEuclidienne(Point p1) {
         return Math.sqrt(
-                Math.pow(p1.getAbscisse(),2) +  Math.pow(p1.getOrdonnee(),2)
+                Math.pow(p1.getAbscisse(), 2) + Math.pow(p1.getOrdonnee(), 2)
         );
     }
 
     private static void afficheListe(List<Point> liste) {
-        for(Point p : liste) {
+        for (Point p : liste) {
             System.out.print(p + ",");
         }
         System.out.println();

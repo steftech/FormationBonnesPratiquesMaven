@@ -4,7 +4,7 @@ public class Point {
     private final int abscisse;
     private final int ordonnee;
 
-    Point(int abscisse, int ordonnee) {
+    public Point(int abscisse, int ordonnee) {
         this.abscisse = abscisse;
         this.ordonnee = ordonnee;
     }
