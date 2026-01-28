@@ -4,7 +4,7 @@ import java.time.Duration;
 import java.time.Instant;
 
 public class MainTest {
-    private static int MAX = 1000000;
+    private static final int MAX = 1000000;
 
     static void main() {
         executionNonChaine();

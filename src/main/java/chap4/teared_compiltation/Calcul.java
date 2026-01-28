@@ -9,7 +9,7 @@ public class Calcul {
         return total;
     }
 
-    public static void main() {
+    static void main() {
         int[] tableau = new int[1000];
         // initialisation
         for (int i = 0; i < tableau.length; i++) {
