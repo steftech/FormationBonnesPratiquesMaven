@@ -1,4 +1,4 @@
-package chap3.object_equals;
+package chap3.collections;
 
 import java.util.Objects;
 
