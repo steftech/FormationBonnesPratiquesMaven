@@ -8,7 +8,7 @@ public class Disque extends FormesGeometriques {
     }
 
     public double getSuperficie() {
-        return Math.pow(rayon, 2) * Math.PI;
+        return Math.pow(getRayon(), 2) * Math.PI;
     }
 
     public double getRayon() {
