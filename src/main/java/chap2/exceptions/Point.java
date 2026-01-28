@@ -34,8 +34,8 @@ public class Point {
     @Override
     public String toString() {
         return "Point{" +
-                "abscisse=" + getAbscisse() +
-                ", ordonnee=" + getOrdonnee() +
+                "abscisse=" + this.getAbscisse() +
+                ", ordonnee=" + this.getOrdonnee() +
                 '}';
     }
 }
