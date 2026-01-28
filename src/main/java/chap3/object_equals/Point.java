@@ -1,5 +1,7 @@
 package chap3.object_equals;
 
+import java.util.Objects;
+
 public class Point {
     private int abscisse;
     private int ordonnee;
@@ -42,5 +44,8 @@ public class Point {
                 && p.getOrdonnee() == this.getOrdonnee();
     }
 
-
+    @Override
+    public int hashCode() {
+        return Objects.hash(getAbscisse(), getOrdonnee());
+    }
 }
