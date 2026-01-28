@@ -17,3 +17,9 @@ https://www.hackerrank.com/domains/java
 Effective Java (Joshua Bloch)
 
 Livres de Kathy Sierra
+
+
+--------------------------
+A lire :
+https://www.younup.fr/blog/la-heap-java-pour-les-nuls-mais-pas-que-round-2
+https://www.oracle.com/technical-resources/articles/java/g1gc.html
